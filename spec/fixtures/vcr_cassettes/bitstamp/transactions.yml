@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.bitso.net/api/transactions/
+    uri: https://api.bitso.com/v2/transactions/
     body:
       encoding: US-ASCII
       string: ''

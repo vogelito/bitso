@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://www.bitso.net/api/ticker/
+    uri: https://api.bitso.com/v2/ticker/
     body:
       encoding: US-ASCII
       string: ''
