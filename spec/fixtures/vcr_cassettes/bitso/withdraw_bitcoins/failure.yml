@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.bitso.com/v2/bitcoin_withdrawal/
     body:
       encoding: US-ASCII
-      string: address=17Vr8d1yWrA226QNYZLDwaG4vDMUEaT9t5&amount=100&key=BITSTAMP_KEY&nonce=13950683899510&signature=0644D03D0D4FF3DEA6C2A4DF55C371930A2BC9BCE5D56DD9C151AE2014E2F0EF
+      string: address=17Vr8d1yWrA226QNYZLDwaG4vDMUEaT9t5&amount=100&key=BITSO_KEY&nonce=13950683899510&signature=0644D03D0D4FF3DEA6C2A4DF55C371930A2BC9BCE5D56DD9C151AE2014E2F0EF
     headers: {}
   response:
     status:
@@ -76,7 +76,7 @@ http_interactions:
     uri: https://api.bitso.com/v2/bitcoin_withdrawal/
     body:
       encoding: US-ASCII
-      string: address=17Vr8d1yWrA226QNYZLDwaG4vDMUEaT9t5&amount=100&key=BITSTAMP_KEY&nonce=13950683908946&signature=3F64B8F96F1CE4CCC76271862FED88A2DEC018D5B54CBC46FDF6521D5C2D4D14
+      string: address=17Vr8d1yWrA226QNYZLDwaG4vDMUEaT9t5&amount=100&key=BITSO_KEY&nonce=13950683908946&signature=3F64B8F96F1CE4CCC76271862FED88A2DEC018D5B54CBC46FDF6521D5C2D4D14
     headers: {}
   response:
     status:

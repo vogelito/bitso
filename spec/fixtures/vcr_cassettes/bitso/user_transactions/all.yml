@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.bitso.com/v2/user_transactions/
     body:
       encoding: US-ASCII
-      string: key=BITSTAMP_KEY&nonce=1380238185&signature=7CBA96CEB133CF1E40EB223B8EE85696D75FFFB2AF8DFF9052F9F6651F829C2A&timedelta=3600
+      string: key=BITSO_KEY&nonce=1380238185&signature=7CBA96CEB133CF1E40EB223B8EE85696D75FFFB2AF8DFF9052F9F6651F829C2A&timedelta=3600
     headers: {}
   response:
     status:

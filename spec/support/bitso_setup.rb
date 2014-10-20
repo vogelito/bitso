@@ -11,9 +11,9 @@ end
 
 def setup_bitso
   Bitso.setup do |config|
-    raise "You must set environment variable BITSTAMP_KEY and BITSTAMP_SECRET with your username and password to run specs." if ENV['BITSTAMP_KEY'].nil? or ENV['BITSTAMP_SECRET'].nil?
-    config.key = ENV['BITSTAMP_KEY']
-    config.secret = ENV['BITSTAMP_SECRET']
-    config.client_id = ENV['BITSTAMP_CLIENT_ID']
+    raise "You must set environment variable BITSO_KEY and BITSO_SECRET with your username and password to run specs." if ENV['BITSO_KEY'].nil? or ENV['BITSO_SECRET'].nil?
+    config.key = ENV['BITSO_KEY']
+    config.secret = ENV['BITSO_SECRET']
+    config.client_id = ENV['BITSO_CLIENT_ID']
   end
 end

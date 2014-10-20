@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.bitso.com/v2/unconfirmed_btc/
     body:
       encoding: US-ASCII
-      string: key=BITSTAMP_KEY&nonce=13950737097883&signature=EA9ACED64B8F902D9AD63CB7C4D4DF87385A8F4925DCB0445C6A8B75099BE23B
+      string: key=BITSO_KEY&nonce=13950737097883&signature=EA9ACED64B8F902D9AD63CB7C4D4DF87385A8F4925DCB0445C6A8B75099BE23B
     headers: {}
   response:
     status:

@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api.bitso.com/v2/buy/
     body:
       encoding: US-ASCII
-      string: amount=1&key=BITSTAMP_KEY&nonce=1380238007&price=1.01&signature=CBDA383400523599498AE3ADA129CC184823B29E177571FB55DD97009EA50A7F&type=0
+      string: amount=1&key=BITSO_KEY&nonce=1380238007&price=1.01&signature=CBDA383400523599498AE3ADA129CC184823B29E177571FB55DD97009EA50A7F&type=0
     headers: {}
   response:
     status:
