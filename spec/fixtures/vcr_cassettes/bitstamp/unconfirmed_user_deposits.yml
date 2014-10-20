@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://www.bitstamp.net/api/unconfirmed_btc/
+    uri: https://www.bitso.net/api/unconfirmed_btc/
     body:
       encoding: US-ASCII
       string: key=BITSTAMP_KEY&nonce=13950737097883&signature=EA9ACED64B8F902D9AD63CB7C4D4DF87385A8F4925DCB0445C6A8B75099BE23B

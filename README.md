@@ -1,4 +1,4 @@
-# Bitstamp Ruby API
+# Bitso Ruby API
 
 Feel free to fork, modify & redistribute under the MIT license.
 
@@ -6,46 +6,31 @@ Feel free to fork, modify & redistribute under the MIT license.
 
 Add this line to your application's Gemfile:
 
-    gem 'bitstamp'
+    gem 'bitso'
 
 ## Create API Key
 
-More info at: [https://www.bitstamp.net/article/api-key-implementation/](https://www.bitstamp.net/article/api-key-implementation/)
+More info at: [https://bitso.com/api_info](https://bitso.com/api_info)
     
 ## Setup
 
 ```ruby
-Bitstamp.setup do |config|
+Bitso.setup do |config|
   config.key = YOUR_API_KEY
   config.secret = YOUR_API_SECRET
-  config.client_id = YOUR_BITSTAMP_USERNAME
+  config.client_id = YOUR_BITSO_USERNAME
 end
 ```
 
 If you fail to set your `key` or `secret` or `client_id` a `MissingConfigExeception`
 will be raised.
 
-## Bitstamp ticker
-
-The bitstamp ticker. Returns `last`, `high`, `low`, `volume`, `bid` and `ask`
-
-```ruby
-Bitstamp.ticker
-```
-
-It's also possible to query through the `Bitstamp::Ticker` object with
-each individual method.
-
-```ruby
-Bitstamp::Ticker.low     # => "109.00"
-```
-
 ## Fetch your open order
 
 Returns an array with your open orders.
 
 ```ruby
-Bitstamp.orders.all
+Bitso.orders.all
 ```
 
 ## Create a sell order
@@ -53,7 +38,7 @@ Bitstamp.orders.all
 Returns an `Order` object.
 
 ```ruby
-Bitstamp.orders.sell(amount: 1.0, price: 111)
+Bitso.orders.sell(amount: 1.0, price: 111)
 ```
 
 ## Create a buy order
@@ -61,7 +46,7 @@ Bitstamp.orders.sell(amount: 1.0, price: 111)
 Returns an `Order` object.
 
 ```ruby
-Bitstamp.orders.buy(amount: 1.0, price: 111)
+Bitso.orders.buy(amount: 1.0, price: 111)
 ```
 
 ## Fetch your transactions
@@ -69,7 +54,7 @@ Bitstamp.orders.buy(amount: 1.0, price: 111)
 Returns an `Array` of `UserTransaction`.
 
 ```ruby
-Bitstamp.user_transactions.all
+Bitso.user_transactions.all
 ```
 
 *To be continued!**
@@ -79,9 +64,9 @@ Bitstamp.user_transactions.all
 If you'd like to run the tests you need to set the following environment variables:
 
 ```
-export BITSTAMP_KEY=xxx
-export BITSTAMP_SECRET=yyy
-export BITSTAMP_CLIENT_ID=zzz
+export BITSO_KEY=xxx
+export BITSO_SECRET=yyy
+export BITSO_CLIENT_ID=zzz
 ```
 
 ## Contributing

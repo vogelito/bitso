@@ -1,4 +1,4 @@
-module Bitstamp
+module Bitso
   class Model
     attr_accessor :error, :message
 
